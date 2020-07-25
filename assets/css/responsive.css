@@ -1,0 +1,218 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+	.wishlist h1 {
+		font-size: 32px;
+	}
+
+	.business-left h1 {
+		font-size: 35px;
+	}
+
+	.single-price ul li a {
+		font-size: 18px;
+	}
+
+	.last-price h3 {
+		font-size: 24px;
+	}
+
+	.middle-price h3 {
+		font-size: 24px;
+	}
+
+	.footer ul li a,
+	.footer span {
+		font-size: 14px;
+	}
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.banner-content h2 {
+		font-size: 32px;
+	}
+
+	.banner-content p {
+		font-size: 16px;
+	}
+
+	.banner-img img {
+		margin-left: 50px;
+		margin-top: 0;
+	}
+
+	.content h4 {
+		font-size: 32px;
+	}
+
+	.download-right h1 {
+		font-size: 32px;
+	}
+
+	.mobile-img img {}
+
+	.wishlist h1 {
+		font-size: 30px;
+	}
+
+	.business-left h1 {
+		font-size: 32px;
+	}
+
+	.single-price h1 {
+		font-size: 32px;
+	}
+
+	.middle-price h3 {
+		font-size: 24px;
+	}
+
+	.last-price h3 {
+		font-size: 24px;
+	}
+
+	.single-price ul li a {
+		font-size: 16px;
+		line-height: 1.5;
+		padding: 5px 0;
+		display: block;
+	}
+
+	.middle-price button {
+		font-size: 16px;
+	}
+
+	.last-price button {
+		font-size: 16px;
+	}
+}
+
+
+
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {}
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+
+
+	.logo-area img {
+		margin-left: 0;
+	}
+
+	.logo-area {
+		margin-bottom: 30px;
+	}
+
+	.banner-content h2 {
+		font-size: 30px;
+	}
+
+	.banner-content p {
+		font-size: 16px;
+	}
+
+	.banner-img img {
+		width: auto;
+		height: auto;
+		margin: 0;
+	}
+
+	.content h4 {
+		font-size: 30px;
+		margin-top: 20px;
+	}
+
+	.download-right h1 {
+		font-size: 30px;
+		margin-top: 50px;
+	}
+
+	.wishlist h1 {
+		font-size: 30px;
+	}
+
+	.wishlist img {
+		width: 100%;
+		margin: 0;
+	}
+
+	.business-left h1 {
+		font-size: 30px;
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.business-left {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.business-left p,
+	.business-left button {
+		margin-left: 0;
+	}
+
+	.business-area {
+		margin-top: 0;
+		margin-left: 0;
+		padding-top: 50px;
+		padding-bottom: 0;
+	}
+
+	.middle-price {
+		margin: 20px 0;
+	}
+
+	.footer ul {
+		display: block;
+		margin-top: 0;
+	}
+
+	.footer .footer-img {
+		width: auto;
+	}
+
+	.footer-img {
+		margin-bottom: 20px;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.laptop-img {
+		position: relative;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+	/* css */
+
+}

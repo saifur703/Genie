@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'ReeJi-BigRuixain-BlackGBV1.0';
+    src: url('ReeJi-BigRuixain-BlackGBV10-Regular.woff2') format('woff2'),
+        url('ReeJi-BigRuixain-BlackGBV10-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FZCuYuan-M03S';
+    src: url('FZY4JW--GB1-0.woff2') format('woff2'),
+        url('FZY4JW--GB1-0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
