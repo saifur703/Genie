@@ -489,7 +489,7 @@ p {
 }
 
 .download-right p {
-	font-size: 18pt;
+	font-size: 16pt;
 	color: #666699;
 	font-weight: 400;
 	margin-top: 10px;
@@ -587,4 +587,30 @@ p {
 
 button:hover {
 	background-color: #0d99db
+}
+
+
+
+.single-price ul,
+.middle-price ul,
+.last-price ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul.price-widget {
+	margin-top: 80px;
+}
+
+.single-price li,
+.middle-price li,
+.last-price li {
+	display: block;
+}
+
+.single-price li a,
+.middle-price li a,
+.last-price li a {
+	display: block;
+	padding: 10px 0;
 }
